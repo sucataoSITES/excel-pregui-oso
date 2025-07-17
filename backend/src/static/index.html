@@ -10,10 +10,10 @@
 <link crossorigin="" href="/assets/index-DQUG-jIS.css" rel="stylesheet"/>
 </head>
 <body>
-<form action="/api/upload" enctype="multipart/form-data" method="post">
-<label>Escolha uma imagem:</label><br/>
-<input name="file" required="" type="file"/><br/><br/>
-<button type="submit">Enviar</button>
+<<form action="/api/upload" method="post" enctype="multipart/form-data">
+  <label for="images">Escolha uma imagem (JPG, PNG...):</label><br>
+  <input type="file" name="images" id="images" required><br><br>
+  <button type="submit">Enviar</button>
 </form>
 
 <div id="root"></div>
